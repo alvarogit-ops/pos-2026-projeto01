@@ -1,3 +1,6 @@
+
+/*
+
 async function = carregarProdutos(){
     const response = await fetch('https://dummyjson.com/products')
     const data = await response.json()
@@ -6,6 +9,9 @@ async function = carregarProdutos(){
 }
 
 carregarProdutos()
-/*fetch('https://dummyjson.com/products')
+
+
+
+fetch('https://dummyjson.com/products')
   .then(res => res.json())
   .then(data => console.log(data)) */
