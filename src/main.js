@@ -41,7 +41,7 @@ select.addEventListener('change', async () => {
 
         <div class="info-produto">
             <h2>${produto.title}</h2>
-            <p>Preço: R$ ${produto.price}</p>
+            <p>Preço: $ ${produto.price}</p>
         </div>
     </div>`
     })
